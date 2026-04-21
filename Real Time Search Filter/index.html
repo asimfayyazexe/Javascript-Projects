@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Search Filter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="bg-opacity">
+
+        <div class="wrapper">
+        <div class="search">
+            <input class="search-bar" type="search" placeholder="Search Product">
+            <button class="search-btn"><i class="fa-solid fa-search"></i></button>
+        </div>
+
+        <div class="buttons">
+            <button class="button-value" onclick="filterProduct('all')">All</button>
+            <button class="button-value" onclick="filterProduct('Topwear')">Top Wear</button>
+            <button class="button-value" onclick="filterProduct('Bottomwear')">Bottom Wear</button>
+            <button class="button-value" onclick="filterProduct('jacket')">Jacket</button>
+            <button class="button-value" onclick="filterProduct('Shoes')">Shoes</button>
+            <button class="button-value" onclick="filterProduct('Watch')">Watch</button>
+        </div>
+
+
+        <div id="products"></div>
+    </div>
+
+
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
