@@ -86,12 +86,15 @@ function initTimer() {
 
 function resetTyping() {
     // Reload a fresh paragraph and reset all stats back to zero
+    inputField.value = "";
     typingText.innerHTML = "";
     randomParagraph();
+
     leftTime = maxTime;
     charIndex = mistakes = isTyping = 0;
-    
     clearInterval(timer);
+    initTimer();
+
     mistakesTag.innerText = 0;
     time.innerText = maxTime;
     cpm.innerText = 0;
