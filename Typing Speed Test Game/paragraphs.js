@@ -1,0 +1,42 @@
+const paragraphs = [
+  "Astronomers have long been fascinated by black holes, regions of spacetime where gravity is so strong that nothing, not even light, can escape. Modern telescopes have allowed scientists to capture the first actual images of these mysterious objects, confirming theories proposed by Einstein decades earlier and opening entirely new avenues for understanding the fundamental structure of our universe.",
+
+  "The fall of the Roman Empire remains one of history's most debated events, with scholars pointing to causes ranging from economic decline and military overspending to political corruption and barbarian invasions. What is certain is that its collapse reshaped Europe for centuries, giving rise to the fragmented kingdoms that eventually formed the modern nations we recognize today.",
+
+  "Fermentation is one of humanity's oldest culinary techniques, transforming simple ingredients like cabbage, milk, and grain into complex foods such as kimchi, cheese, and beer. Beyond flavor, the process relies on beneficial bacteria and yeasts that break down sugars, creating not only distinctive tastes but also nutritional benefits that have made fermented foods a staple across countless cultures worldwide.",
+
+  "Cognitive dissonance describes the mental discomfort people feel when holding two contradictory beliefs or when their actions conflict with their values. Rather than resolving this tension logically, individuals often change their beliefs or rationalize their behavior to reduce discomfort. This concept, first introduced by psychologist Leon Festinger, continues to shape research on decision-making, persuasion, and human behavior today.",
+
+  "Machine learning models improve by identifying patterns in large datasets rather than following explicitly programmed rules. Instead of telling a computer exactly what to do, engineers feed it examples and let algorithms adjust internal parameters until predictions become more accurate. This shift from rule-based programming to pattern recognition has transformed fields ranging from medical diagnostics to language translation and autonomous driving.",
+
+  "Marathon running demands more than physical endurance; it requires careful pacing, mental resilience, and precise fueling strategy. Elite runners train for months, gradually increasing mileage while balancing recovery to avoid injury. On race day, even experienced athletes can hit the notorious 'wall' around the twenty-mile mark, when glycogen stores deplete and willpower becomes as important as physical conditioning.",
+
+  "Jazz emerged in the early twentieth century, blending African rhythmic traditions with European harmonic structures to create a genre defined by improvisation and syncopation. Musicians like Louis Armstrong and Duke Ellington pushed the form forward, treating each performance as a unique conversation between players. This spontaneous, collaborative spirit remains central to jazz, distinguishing it from more rigidly composed musical styles.",
+
+  "Inflation occurs when the general price level of goods and services rises over time, reducing the purchasing power of money. Central banks attempt to manage inflation by adjusting interest rates, making borrowing more or less expensive to influence spending and investment. While moderate inflation is generally considered healthy for economic growth, runaway inflation can erode savings and destabilize entire economies.",
+
+  "Coral reefs, often called the rainforests of the sea, support roughly a quarter of all marine species despite covering less than one percent of the ocean floor. These delicate ecosystems rely on a symbiotic relationship between coral polyps and microscopic algae, which provide energy through photosynthesis. Rising ocean temperatures threaten this balance, causing widespread bleaching events across reefs worldwide.",
+
+  "Gothic cathedrals, with their soaring spires and ribbed vaults, represent a triumph of medieval engineering as much as artistic vision. Flying buttresses allowed builders to support immense stone ceilings while opening walls for enormous stained-glass windows, flooding interiors with colored light. Structures like Notre-Dame and Chartres took generations to complete, standing as testaments to sustained communal ambition and faith.",
+
+  "Magical realism blends fantastical elements into otherwise realistic settings, presenting the extraordinary as an accepted part of everyday life. Writers like Gabriel García Márquez used this style to explore themes of memory, history, and identity, particularly within Latin American culture. Rather than signaling escapism, the genre often serves as a powerful vehicle for political and social commentary.",
+
+  "The trolley problem, a thought experiment introduced by philosopher Philippa Foot, asks whether it is morally acceptable to divert a runaway trolley to kill one person instead of five. Variations of this dilemma continue to fuel debate in ethics, forcing people to examine the difference between actively causing harm and passively allowing it, a distinction central to modern moral philosophy.",
+
+  "Antibiotic resistance occurs when bacteria evolve mechanisms to survive drugs designed to kill them, often as a result of overuse or misuse of antibiotics in humans and livestock. Once resistant strains emerge, infections that were once easily treatable can become dangerous or even deadly. Public health experts warn that without new drug development, common surgeries and infections could become far riskier.",
+
+  "The Amazon rainforest spans nine countries in South America and is often referred to as the planet's lungs due to the vast amount of oxygen it produces. Home to an estimated ten percent of all known species on Earth, the forest also plays a critical role in regulating global rainfall patterns and storing carbon that would otherwise accelerate climate change.",
+
+  "The periodic table organizes elements by increasing atomic number, arranging them so that elements with similar chemical properties fall into the same columns, or groups. This structure, first proposed by Dmitri Mendeleev in 1869, was so effective that it allowed him to predict the existence and properties of elements that had not yet been discovered, a remarkable feat of scientific foresight.",
+
+  "Impressionist painters in nineteenth-century France broke from academic tradition by capturing fleeting moments of light and color rather than precise detail. Artists such as Claude Monet often worked outdoors, painting quickly to catch changing atmospheric conditions before they vanished. Initially mocked by critics for looking unfinished, the movement eventually redefined what painting could express and represent.",
+
+  "Supply chain disruptions during recent global events revealed how interconnected modern manufacturing has become, with a single delayed shipment capable of halting production across multiple continents. Companies have since begun diversifying suppliers and increasing inventory buffers to reduce risk. While these strategies add cost, many businesses now view resilience as more valuable than the efficiency gained from lean, just-in-time operations.",
+
+  "Renewable energy sources like solar and wind now account for a growing share of global electricity generation, driven by falling technology costs and supportive government policy. Unlike fossil fuels, these sources produce no direct emissions once installed, though challenges remain around energy storage and grid stability when the sun isn't shining or the wind isn't blowing consistently.",
+
+  "Language acquisition in early childhood follows a remarkably consistent pattern across cultures, with infants babbling, then forming single words, before combining them into simple sentences. Researchers believe humans possess an innate capacity for grammar, allowing children to construct complex rules from limited exposure to speech, a phenomenon linguist Noam Chomsky famously described as the poverty of the stimulus.",
+
+  "Sending humans to Mars presents challenges far beyond the rocket technology required for the journey itself, including prolonged radiation exposure, muscle and bone loss in microgravity, and the psychological toll of isolation across a mission lasting years rather than months. Engineers must also solve how to grow food, recycle water, and manufacture fuel using resources found on the Martian surface."
+];
+

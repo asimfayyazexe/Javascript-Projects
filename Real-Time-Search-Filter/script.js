@@ -12,7 +12,7 @@ let products = {
 
 // Build all cards
 
-for (const i of products.data) {   // FIX: added const
+for (const i of products.data) {  
 
   let card = document.createElement("div");
   card.classList.add("card", "hide");
@@ -55,15 +55,11 @@ for (const i of products.data) {   // FIX: added const
 
 
 // Grab elements
-
-
 let searchBar = document.querySelector(".search-bar");
 let filterButtons = document.querySelectorAll(".button-value");
 let allCards = document.querySelectorAll(".card");
 
-
 // Filter function
-
 function filterProduct(value) {
 
   // Get what the user typed in search bar
@@ -75,7 +71,6 @@ function filterProduct(value) {
     // Get button text e.g. "Top Wear" → "topwear"
     let buttonText = button.textContent.toLowerCase().replace(" ", "");
 
-    // FIX: compare strings properly using () on toUpperCase → actually
     // we just use lowercase on both sides, simpler and cleaner
     if (value === "all" && button.textContent.toLowerCase() === "all") {
       button.classList.add("active");
@@ -97,7 +92,7 @@ function filterProduct(value) {
     let cardName = card.querySelector(".productName").textContent.toLowerCase();
 
     // Remove spaces from filter value for matching
-    // "Top Wear" → "topwear"  matches  dataset "topwear" ✅
+    // "Top Wear" → "topwear"  matches  dataset "topwear" 
     let filterValue = value.toLowerCase().replace(" ", "");
 
     // Check 1 — does category match?
@@ -118,7 +113,6 @@ function filterProduct(value) {
 
 
 // Button click listeners
-
 filterButtons.forEach(function(button) {
   button.addEventListener("click", function() {
     // Pass the button's text as the filter value
@@ -128,8 +122,6 @@ filterButtons.forEach(function(button) {
 
 
 // Search bar listener
-
-
 searchBar.addEventListener("input", function() {
   // Re-run filter keeping the current active button
   let activeButton = document.querySelector(".button-value.active");
@@ -139,8 +131,6 @@ searchBar.addEventListener("input", function() {
 
 
 // On page load, show all products
-
-
 window.onload = function() {       
   filterProduct("all");
 };

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Typing Test :</h1>
+        <input type="text" class="input-field">
+        <div class="content-box">
+            <div class="typing-content">
+                <p></p>
+            </div>
+            <div class="action-details">
+                <ul>
+                    <li class="time">
+                        <p>Time Left:</p>
+                        <span><b id="timeLeft">60s</b></span>
+                    </li>
+                    <li class="mistakes">
+                        <p>Mistakes:</p>
+                        <span><b id="mistakes">0</b></span>
+                    </li>
+                    <li class="wpm">
+                        <p>WPM</p>
+                        <span><b id="wpm">0</b></span>
+                    </li>
+                    <li class="cpm">
+                        <p>CPM</p>
+                        <span><b id="cpm">0</b></span>
+                    </li>
+                </ul>
+                <button id="tryAgainBtn">Try Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="paragraphs.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
