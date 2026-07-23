@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #B4B4B4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 390px;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #1E1E1E;
+}
+
+.display input {
+  height: 60px;
+  width: 100%;
+  padding: 0 1rem;
+  text-align: right;
+  font-size: 40px;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  border: none;
+  margin-bottom: 10px;
+  background-color: #e5e3e3;
+  color: #1E1E1E;
+}
+
+.display input::placeholder {
+  color: #3A3A3A;
+  font-size: inherit;
+}
+
+.container button {
+  height: 70px;
+  width: 70px;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 12rem;
+  margin: 8px;
+  border: none;
+  flex-wrap: wrap;
+  background-color: #2E2E2E;
+  color: #F2F2F2;
+  cursor: pointer;
+  transition: transform 0.1s ease, background-color 0.15s ease;
+}
+
+.operator {
+  background-color: #3A3A3A;
+  color: #FFB100;
+}
+
+.equals {
+  background-color: #FFB100;
+  color: #0F0F0F;
+}
+
+.clear,
+.delete {
+  background-color: #FF3B3B;
+  color: #FFFFFF;
+}
+
+.container button:hover {
+  transform: scale(0.97);
+}
+
+.container button:active {
+  transform: scale(0.9);
+}
+
+.equals:hover {
+  background-color: #E09E00;
+}
+
+.clear:hover,
+.delete:hover {
+  background-color: #E63333;
+}
